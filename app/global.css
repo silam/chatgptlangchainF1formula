@@ -13,7 +13,7 @@ body {
 }
 
 
-main {
+.main {
     width: 80vw;
     height: 80vh;
     background: linear-gradient(to_bottom, #f8f8f8, #cfcfcf);
@@ -121,4 +121,19 @@ input:focus {
 .bubble.assistant {
     border-radius: 20px 20px 20px 0px;
     background-color: #dce7ff;
+}
+
+.prompt-suggestion-button {
+    margin: 8px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #383838;
+    box-shadow: #959da533 0 8px 24;
+}
+
+.prompt-suggestion-row {
+    width: 100%;
 }

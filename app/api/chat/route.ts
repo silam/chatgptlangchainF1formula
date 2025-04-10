@@ -44,7 +44,8 @@ export async function Post(req: Request) {
             })
             const docs = await cursor.toArray()
             const docMap = docs?.map(doc => doc.text)
-        }   docContent = JSON.stringify(docMap)
+            docContent = JSON.stringify(docMap)
+        }  
         catch (err)
         {
             console.log("Error queriry")

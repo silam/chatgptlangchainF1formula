@@ -8,7 +8,7 @@ export const metadata = {
 
 const RouteLayOut = ({children}) => {
     return (
-        <html>
+        <html lang="en">
             <body>
                 {children}
             </body>
